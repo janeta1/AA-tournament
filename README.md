@@ -5,7 +5,7 @@ It also includes a reset mechanism that offers opponents a second chance if they
 
 The main goal is to maximize long-term gains by building trust when possible, but without being naive to repeated betrayal.
 
----
+
 # Round 1: Strategy Implementation:
 ## Step-by-step breakdown
 1. **_Opening move:_**
@@ -32,7 +32,6 @@ The main goal is to maximize long-term gains by building trust when possible, bu
     * If none of the conditions above apply, the Resettable defaults to Tit-fot-Tat, making sure
    it's still gaining something
 
----
 
 # Round 2: Opponent Selection
 
@@ -54,7 +53,7 @@ Here’s how the opponent selection works step-by-step:
 4. **_Fallback:_**
    * If no information is available (for instance, if the histories are empty), the strategy defaults to continuing against the current opponent to avoid errors.
 
----
+
 # Summary
 The Resettable is a flexible and resilient strategy that can handle many types of opponents:
 
